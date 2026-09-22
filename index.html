@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytrova | Data Analytics Solutions</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #050b18;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #081225;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid #17345f;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #38a8ff;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #38a8ff;
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background: linear-gradient(135deg, #050b18, #0b2142);
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      color: #38a8ff;
+      margin-bottom: 15px;
+    }
+
+    .hero h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #b9c7d9;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #168cff;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background: #006edc;
+    }
+
+    .title {
+      font-size: 34px;
+      color: #38a8ff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .about {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      color: #c6d2e0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #0b172b;
+      border: 1px solid #17345f;
+      padding: 25px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #38a8ff;
+    }
+
+    .card h3 {
+      color: #38a8ff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #b9c7d9;
+    }
+
+    .contact {
+      text-align: center;
+      background: #081225;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      color: #c6d2e0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #030712;
+      color: #8ea1b8;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 6px;
+        font-size: 12px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Analytrova</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Analytrova</h1>
+  <h2>Turning Data into Clear Business Insights</h2>
+
+  <p>
+    Professional data analytics solutions using Excel, Power BI,
+    data cleaning, dashboards and business reports.
+  </p>
+
+  <div>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About Analytrova</h2>
+
+  <p class="about">
+    Analytrova helps businesses organize, analyze and understand their
+    data. We transform raw data into meaningful reports, dashboards
+    and insights that support better business decisions.
+  </p>
+</section>
+
+<section id="services">
+  <h2 class="title">Our Services</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Data Cleaning</h3>
+      <p>Cleaning and preparing raw business data for accurate analysis.</p>
+    </div>
+
+    <div class="card">
+      <h3>Excel Reports</h3>
+      <p>Professional Excel reports for sales, profit and business performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>Dashboard Creation</h3>
+      <p>Interactive dashboards that make important business metrics easy to understand.</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <p>Analyzing business data to identify trends, patterns and insights.</p>
+    </div>
+
+    <div class="card">
+      <h3>Power BI Dashboards</h3>
+      <p>Interactive Power BI dashboards for business reporting and visualization.</p>
+    </div>
+
+    <div class="card">
+      <h3>Excel Automation</h3>
+      <p>Automating repetitive Excel tasks using formulas and efficient workflows.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="title">Our Projects</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Hotel Booking Analysis</h3>
+      <p>Analysis of bookings, revenue, room types, payment methods and trends.</p>
+    </div>
+
+    <div class="card">
+      <h3>Chocolate Sales Analysis</h3>
+      <p>Sales analysis with product performance, revenue and business insights.</p>
+    </div>
+
+    <div class="card">
+      <h3>Restaurant Sales Dashboard</h3>
+      <p>Dashboard for sales, orders, revenue and item performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>E-commerce Sales Analysis</h3>
+      <p>Analysis of sales, orders, products, locations and business performance.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="title">Contact Analytrova</h2>
+
+  <p>Let's turn your data into meaningful insights.</p>
+
+  <p>Email: hello.analytrova@gmail.com</p>
+
+  <br>
+
+  <a href="mailto:hello.analytrova@gmail.com" class="btn">
+    Email Us
+  </a>
+</section>
+
+<footer>
+  © 2026 Analytrova. All Rights Reserved.
+</footer>
+
+</body>
+</html>
